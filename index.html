@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Đề kiểm tra giữa HKI - Vật lí 10 - THPT Lê Quý Đôn</title>
+  <title>Đề kiểm tra giữa HKI - Đề 2 - Vật lí 10 - THPT Lê Quý Đôn</title>
   
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   
-  <!-- KaTeX CSS & JS để render công thức Vật lí & Vectơ chuẩn xác tuyệt đối -->
+  <!-- KaTeX CSS & JS để render công thức Vật lí & Vectơ chuẩn xác -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
@@ -61,7 +61,7 @@
         <span class="w-2.5 h-2.5 rounded-full bg-pink-600 animate-pulse"></span>
         <span class="font-bold text-xs sm:text-sm text-slate-800 tracking-tight">THPT LÊ QUÝ ĐÔN</span>
         <span class="text-slate-300">•</span>
-        <span class="text-xs font-semibold text-pink-700 bg-pink-50 border border-pink-200 px-2 py-0.5 rounded-full">Vật lí 10</span>
+        <span class="text-xs font-semibold text-pink-700 bg-pink-50 border border-pink-200 px-2 py-0.5 rounded-full">ĐỀ 2</span>
       </div>
 
       <!-- ĐỒNG HỒ ĐẾM NGƯỢC, NÚT ÂM THANH & NỘP BÀI -->
@@ -91,22 +91,22 @@
     <div class="bg-white rounded-2xl p-5 sm:p-6 border border-pink-100 shadow-sm space-y-4">
       <div class="text-center pb-3 border-b border-slate-100 space-y-1">
         <p class="text-[11px] font-bold tracking-widest text-pink-600 uppercase">TRƯỜNG THPT LÊ QUÝ ĐÔN • TỔ VẬT LÍ – CÔNG NGHỆ</p>
-        <h1 class="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">ĐỀ KIỂM TRA GIỮA HỌC KÌ I</h1>
+        <h1 class="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">ĐỀ KIỂM TRA GIỮA HỌC KÌ I - ĐỀ 2</h1>
         <p class="text-xs text-slate-500 font-medium">Môn: Vật lí khối 10 • Thời gian: 45 phút (không kể thời gian giao đề)</p>
       </div>
 
       <div class="quote-border bg-pink-50/70 p-3.5 rounded-r-xl text-xs text-slate-800 leading-relaxed font-medium">
-        📌 <strong>Quy định làm bài:</strong> Đề thi gồm 4 phần: Trắc nghiệm 4 lựa chọn, Trắc nghiệm Đúng/Sai, Trả lời ngắn (điền 4 ký tự) và Tự luận (chụp ảnh bài làm hoặc tải ảnh). Hệ thống sẽ <strong>hoàn toàn ẩn đáp án</strong> trong lúc làm để đảm bảo tính khách quan. Điểm kiểm tra cùng lời giải chi tiết sẽ hiển thị sau khi nộp bài.
+        📌 <strong>Quy định làm bài:</strong> Đề thi gồm 4 phần: Trắc nghiệm 4 lựa chọn, Trắc nghiệm Đúng/Sai, Trả lời ngắn (điền 4 ký tự) và Tự luận (chụp ảnh bài làm hoặc tải ảnh). Hệ thống sẽ <strong>hoàn toàn ẩn đáp án</strong> trong lúc làm bài. Bảng điểm và lời giải chi tiết sẽ hiển thị ngay sau khi nộp bài.
       </div>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
         <div>
           <label class="block text-xs font-bold text-slate-600 mb-1">Họ và tên học sinh: <span class="text-pink-600">*</span></label>
-          <input type="text" id="student-name" placeholder="Ví dụ: Nguyễn Văn An" class="w-full text-xs sm:text-sm border border-slate-200 rounded-xl px-3.5 py-2.5 focus:outline-none focus:ring-2 focus:ring-pink-400/30 focus:border-pink-500 transition bg-slate-50/50">
+          <input type="text" id="student-name" placeholder="Ví dụ: Trần Thị Mai" class="w-full text-xs sm:text-sm border border-slate-200 rounded-xl px-3.5 py-2.5 focus:outline-none focus:ring-2 focus:ring-pink-400/30 focus:border-pink-500 transition bg-slate-50/50">
         </div>
         <div>
           <label class="block text-xs font-bold text-slate-600 mb-1">Số báo danh / Lớp: <span class="text-pink-600">*</span></label>
-          <input type="text" id="student-id" placeholder="Ví dụ: SBD 1002 - Lớp 10A1" class="w-full text-xs sm:text-sm border border-slate-200 rounded-xl px-3.5 py-2.5 focus:outline-none focus:ring-2 focus:ring-sky-400/30 focus:border-sky-500 transition bg-slate-50/50">
+          <input type="text" id="student-id" placeholder="Ví dụ: SBD 1025 - Lớp 10A2" class="w-full text-xs sm:text-sm border border-slate-200 rounded-xl px-3.5 py-2.5 focus:outline-none focus:ring-2 focus:ring-sky-400/30 focus:border-sky-500 transition bg-slate-50/50">
         </div>
       </div>
     </div>
@@ -119,7 +119,7 @@
         <div>
           <span class="bg-pink-100 text-pink-700 text-[11px] font-extrabold px-2.5 py-1 rounded-md uppercase">Phần I</span>
           <h2 class="text-base font-bold text-slate-800 mt-1.5">Câu trắc nghiệm nhiều phương án lựa chọn (12 câu)</h2>
-          <p class="text-xs text-slate-500">Mỗi câu chỉ chọn một phương án. Thí sinh bấm chọn trực tiếp vào ô tương ứng.</p>
+          <p class="text-xs text-slate-500">Mỗi câu chỉ chọn một phương án. Thí sinh bấm chọn trực tiếp vào ô đáp án.</p>
         </div>
         <span class="text-xs font-bold text-pink-600 bg-pink-50 border border-pink-200 px-3 py-1 rounded-full whitespace-nowrap">3,0 điểm</span>
       </div>
@@ -154,14 +154,14 @@
       <div class="flex items-center justify-between pb-3 border-b border-slate-100">
         <div>
           <span class="bg-rose-100 text-rose-700 text-[11px] font-extrabold px-2.5 py-1 rounded-md uppercase">Phần III</span>
-          <h2 class="text-base font-bold text-slate-800 mt-1.5">Câu trắc nghiệm trả lời ngắn (6 câu)</h2>
-          <p class="text-xs text-slate-500">Nhập kết quả vào 4 ô vuông ký tự bên dưới mỗi câu (tự động chuyển tiếp khi gõ số/dấu phẩy).</p>
+          <h2 class="text-base font-bold text-slate-800 mt-1.5">Câu trắc nghiệm trả lời ngắn (4 câu: Câu 15 - 18)</h2>
+          <p class="text-xs text-slate-500">Nhập kết quả vào 4 ô vuông ký tự bên dưới mỗi câu (tự động chuyển tiếp khi gõ số hoặc dấu phẩy).</p>
         </div>
         <span class="text-xs font-bold text-rose-600 bg-rose-50 border border-rose-200 px-3 py-1 rounded-full whitespace-nowrap">2,0 điểm</span>
       </div>
 
       <div id="part3-container" class="grid grid-cols-1 md:grid-cols-2 gap-5">
-        <!-- Render câu 15 - 20 bằng JavaScript -->
+        <!-- Render câu 15 - 18 bằng JavaScript -->
       </div>
     </section>
 
@@ -172,14 +172,14 @@
       <div class="flex items-center justify-between pb-3 border-b border-slate-100">
         <div>
           <span class="bg-cyan-100 text-cyan-800 text-[11px] font-extrabold px-2.5 py-1 rounded-md uppercase">Phần IV</span>
-          <h2 class="text-base font-bold text-slate-800 mt-1.5">Phần Tự luận (2 bài tập)</h2>
+          <h2 class="text-base font-bold text-slate-800 mt-1.5">Phần Tự luận (Bài 19 & Bài 20)</h2>
           <p class="text-xs text-slate-500">Học sinh làm bài ra giấy thi, chụp ảnh trực tiếp bằng điện thoại hoặc tải ảnh chụp bài làm lên hệ thống.</p>
         </div>
         <span class="text-xs font-bold text-cyan-700 bg-cyan-50 border border-cyan-200 px-3 py-1 rounded-full whitespace-nowrap">3,0 điểm</span>
       </div>
 
       <div id="part4-container" class="space-y-6">
-        <!-- Render Bài 21 & 22 bằng JavaScript -->
+        <!-- Render Bài 19 & Bài 20 bằng JavaScript -->
       </div>
     </section>
 
@@ -203,7 +203,7 @@
       <div class="flex items-start justify-between border-b border-slate-100 pb-4">
         <div>
           <span class="text-[11px] font-extrabold text-pink-600 uppercase tracking-widest">KẾT QUẢ BÀI THI CHÍNH THỨC</span>
-          <h3 class="text-xl sm:text-2xl font-black text-slate-900 mt-0.5">BÁO CÁO KIỂM TRA GIỮA KÌ I</h3>
+          <h3 class="text-xl sm:text-2xl font-black text-slate-900 mt-0.5">BÁO CÁO KIỂM TRA GIỮA KÌ I - ĐỀ 2</h3>
           <p class="text-xs text-slate-500" id="res-timestamp">Thời gian: ...</p>
         </div>
         <div class="text-right">
@@ -254,6 +254,11 @@
         <div id="res-evaluation" class="p-3.5 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-950 font-medium leading-relaxed">
           -
         </div>
+      </div>
+
+      <!-- LỜI GIẢI CHI TIẾT TỰ ĐỘNG HIỆN SAU KHI NỘP -->
+      <div class="space-y-3 text-xs max-h-60 overflow-y-auto p-3.5 bg-slate-50 rounded-xl border border-slate-200" id="res-solutions-container">
+        <!-- Render lời giải chi tiết -->
       </div>
 
       <!-- CÁC NÚT THAO TÁC -->
@@ -342,157 +347,168 @@
     }
 
     /* ==============================================================
-       2. NGÂN HÀNG CÂU HỎI CHUẨN ĐỀ THI LÊ QUÝ ĐÔN (TÍCH HỢP KATEX)
+       2. NGÂN HÀNG CÂU HỎI ĐỀ 2 (CHUẨN TẬP TIN CK. đề 2.docx)
        ============================================================== */
     const EXAM_DATA = {
       // PHẦN I: 12 CÂU TRẮC NGHIỆM (0,25đ/câu = 3,0đ)
       part1: [
         {
           id: 1,
-          q: "Những ngành nghiên cứu nào thuộc về vật lí?",
+          tag: "§1 – I.NB",
+          q: "Trong một bài thực hành, gia tốc rơi tự do được tính theo công thức $g = \\frac{2h}{t^2}$. Sai số tuyệt đối của phép đo trên tính theo công thức nào?",
           options: [
-            "Cơ học, nhiệt học, vật chất vô cơ.",
-            "Điện học, quang học, vật chất hữu cơ.",
-            "Nhiệt học, quang học, sinh vật học.",
-            "Cơ học, nhiệt học, điện học, quang học."
+            "$\\Delta g = \\bar{g} \\cdot \\left( \\frac{\\Delta h}{\\bar{h}} + \\frac{2\\Delta t}{\\bar{t}} \\right)$",
+            "$\\Delta g = \\bar{g} \\cdot \\left( \\frac{\\Delta h}{\\bar{h}} + \\frac{\\Delta t}{\\bar{t}} \\right)$",
+            "$\\Delta g = \\bar{g} \\cdot \\left( \\frac{\\Delta h}{\\bar{h}} - \\frac{2\\Delta t}{\\bar{t}} \\right)$",
+            "$\\Delta g = \\bar{g} \\cdot \\left( \\frac{2\\Delta h}{\\bar{h}} + \\frac{2\\Delta t}{\\bar{t}} \\right)$"
           ],
-          correct: 3,
-          explain: "Các phân ngành vật lí gồm: Cơ học, Nhiệt học, Điện học, Quang học, Âm học, Thuyết tương đối, Vật lí lượng tử..."
+          correct: 0,
+          explain: "Ta có: $\\delta g = \\frac{\\Delta g}{\\bar{g}} = \\frac{\\Delta h}{\\bar{h}} + 2\\frac{\\Delta t}{\\bar{t}} \\Rightarrow \\Delta g = \\bar{g} \\cdot \\left( \\frac{\\Delta h}{\\bar{h}} + \\frac{2\\Delta t}{\\bar{t}} \\right)$."
         },
         {
           id: 2,
-          q: "Đối tượng nghiên cứu của vật lí là gì?",
+          tag: "§1 – I.NB",
+          q: "Nêu các phương pháp nghiên cứu thường được sử dụng trong Vật lí?",
           options: [
-            "Các dạng vận động và tương tác của vật chất.",
-            "Quy luật vận động, phát triển của sự vật hiện tượng.",
-            "Các dạng vận động của vật chất và năng lượng.",
-            "Quy luật tương tác của các dạng năng lượng."
+            "Phương pháp thực nghiệm và phương pháp mô hình.",
+            "Phương pháp thực nghiệm, phương pháp mô hình, phương pháp quan sát và suy luận.",
+            "Phương pháp thực nghiệm, phương pháp quan sát và suy luận.",
+            "Phương pháp mô hình, phương pháp quan sát và suy luận."
           ],
-          correct: 2,
-          explain: "Theo SGK Vật lí 10 (KNTT), đối tượng nghiên cứu của Vật lí là các dạng vận động của vật chất và năng lượng."
+          correct: 0,
+          explain: "Các phương pháp nghiên cứu thường được sử dụng của Vật lí là phương pháp thực nghiệm và phương pháp mô hình."
         },
         {
           id: 3,
-          q: "Từ đồ thị độ dịch chuyển – thời gian của xe được biểu diễn như hình vẽ, giá trị của vận tốc bằng:",
-          hasGraph: "graph_c3",
+          tag: "§2 – I.TH",
+          q: "Biển báo dưới đây có ý nghĩa gì?",
+          hasGraph: "graph_c3_flame",
           options: [
-            "$14\\text{ m/s}$",
-            "$12\\text{ m/s}$",
-            "$5,0\\text{ m/s}$",
-            "$2,4\\text{ m/s}$"
+            "Cho phép sử dụng lửa.",
+            "Cảnh báo bề mặt nóng.",
+            "Cảnh báo nguy cơ dễ cháy.",
+            "Cảnh báo chất độc."
           ],
-          correct: 3,
-          explain: "Độ dốc của đồ thị $d - t$ là vận tốc: $v = \\frac{\\Delta d}{\\Delta t} = \\frac{36}{15} = \\frac{24}{10} = 2,4\\text{ m/s}$."
+          correct: 2,
+          explain: "Biển báo hình tam giác viền đen, nền vàng có hình ngọn lửa là biển cảnh báo nguy cơ dễ cháy."
         },
         {
           id: 4,
-          q: "Khi tiến hành thí nghiệm, cần phải:",
+          tag: "§2 – I.NB",
+          q: "Khi sử dụng các thiết bị điện trong phòng thí nghiệm Vật Lí chúng ta cần lưu ý điều gì?",
           options: [
-            "thảo luận nhóm để thống nhất quy tắc riêng của nhóm, có thể bỏ qua quy tắc an toàn của phòng thí nghiệm.",
-            "tiến hành thí nghiệm với thời gian ngắn nhất, không cần tuân thủ các quy tắc của phòng thí nghiệm.",
-            "tuân theo các quy tắc an toàn của phòng thí nghiệm, hướng dẫn của giáo viên.",
-            "tự đề xuất các quy tắc thí nghiệm để có thể tiến hành thí nghiệm nhanh nhất."
+            "Cần quan sát kĩ các kí hiệu và nhãn thông số trên thiết bị để sử dụng đúng chức năng, đúng yêu cầu kĩ thuật.",
+            "Khởi động hệ thống và tiến hành thí nghiệm.",
+            "Quan sát các kí hiệu rồi khởi động hệ thống để tiến hành thí nghiệm.",
+            "Không cần sử dụng đúng chức năng của thiết bị."
           ],
-          correct: 2,
-          explain: "Học sinh luôn phải tuân theo các quy tắc an toàn của phòng thí nghiệm và hướng dẫn của giáo viên."
+          correct: 0,
+          explain: "Khi sử dụng thiết bị điện cần quan sát kĩ kí hiệu, nhãn thông số để dùng đúng chức năng và an toàn kĩ thuật."
         },
         {
           id: 5,
-          q: "Cho hình ảnh về đồng hồ đo thời gian hiện số và cổng quang điện. Các bước thực hiện để đo tốc độ dùng đồng hồ đo thời gian và cổng quang điện gồm:\n(1) Tính quãng đường từ cổng quang điện (3) đến cổng quang điện (4)\n(2) Quan sát thời gian hiện số trên đồng hồ, từ đó tính được tốc độ chuyển động của viên bi\n(3) Điều chỉnh đồng hồ đo thời gian về 0 s\n(4) Bấm nút ở nam châm điện để viên bi bắt đầu chuyển động\nCách sắp xếp các bước đúng là?",
-          hasGraph: "graph_c5",
+          tag: "§9 – I.NB",
+          q: "Công thức vận tốc tức thời trong chuyển động thẳng biến đổi đều là:",
           options: [
-            "3 – 1 – 4 – 2.",
-            "1 – 3 – 4 – 2.",
-            "3 – 4 – 1 – 2.",
-            "1 – 2 – 3 – 4."
+            "$v = v_0 + at^2$",
+            "$v = v_0 + a \\cdot t$",
+            "$v = v_0 - a \\cdot t$",
+            "$v = -v_0 + at$"
           ],
           correct: 1,
-          explain: "Thứ tự các bước chuẩn: (1) Đo khoảng cách quãng đường giữa 2 cổng quang -> (3) Reset đồng hồ về 0 -> (4) Nhấn nút nhả nam châm điện cho bi lăn -> (2) Đọc thời gian hiển thị và tính tốc độ."
+          explain: "Công thức vận tốc tức thời theo thời gian trong chuyển động thẳng biến đổi đều là $v = v_0 + at$."
         },
         {
           id: 6,
-          q: "Khi tiến hành đo các đại lượng vật lí, luôn có sự sai lệch do đặc điểm và cấu tạo của dụng cụ gây ra, đây là loại sai số nào?",
+          tag: "§4 – I.VD",
+          q: "Hai anh em bơi trong bể bơi thiếu niên có chiều dài $25\\text{ m}$. Hai anh em xuất phát từ đầu bể bơi đến cuối bể bơi thì người em dừng lại nghỉ, còn người anh quay lại bơi tiếp về đầu bể mới nghỉ. Tính độ dịch chuyển của hai anh em?",
           options: [
-            "Sai số tuyệt đối.",
-            "Sai số hệ thống.",
-            "Sai số ngẫu nhiên.",
-            "Sai số tương đối."
+            "Độ dịch chuyển của người anh là $25\\text{ m}$, người em là $50\\text{ m}$.",
+            "Độ dịch chuyển của người anh là $50\\text{ m}$, người em là $25\\text{ m}$.",
+            "Độ dịch chuyển của người anh là $0\\text{ m}$, người em là $25\\text{ m}$.",
+            "Độ dịch chuyển của người anh là $25\\text{ m}$, người em là $25\\text{ m}$."
           ],
-          correct: 1,
-          explain: "Sai số sinh ra do đặc điểm và cấu tạo của dụng cụ là sai số hệ thống (còn gọi là sai số dụng cụ)."
+          correct: 2,
+          explain: "Người em bơi từ đầu bể tới cuối bể: $d_{\\text{em}} = 25\\text{ m}$. Người anh bơi từ đầu bể tới cuối bể rồi quay lại đầu bể (điểm đầu trùng điểm cuối): $d_{\\text{anh}} = 0\\text{ m}$."
         },
         {
           id: 7,
-          q: "“Chuyển động thẳng nhanh dần đều là chuyển động có độ lớn vận tốc ... theo thời gian”. Điền từ thích hợp vào dấu “…”.",
+          tag: "§5 – I.NB",
+          q: "Tốc độ trung bình là:",
           options: [
-            "không đổi",
-            "giảm đều",
-            "tăng đều",
-            "tăng hoặc giảm"
+            "đại lượng đặc trưng cho độ nhanh, chậm của chuyển động.",
+            "đại lượng được đo bằng thương số của độ dịch chuyển và thời gian dịch chuyển.",
+            "cho biết hướng của chuyển động.",
+            "cho biết tốc độ của chuyển động tại một thời điểm."
           ],
-          correct: 2,
-          explain: "Chuyển động thẳng nhanh dần đều là chuyển động có độ lớn vận tốc tăng đều theo thời gian."
+          correct: 0,
+          explain: "Tốc độ trung bình là đại lượng vô hướng đặc trưng cho độ nhanh, chậm của chuyển động trên quãng đường."
         },
         {
           id: 8,
-          q: "Đơn vị của gia tốc $a$ là:",
+          tag: "§3 – I.NB",
+          q: "Khi đo lực kéo tác dụng lên vật có khối lượng $m$, kết quả thu được là $F = 10,25 \\pm 0,05\\text{ N}$ thì:",
           options: [
-            "$\\text{m/s}^2$",
-            "$\\text{kg/s}^2$",
-            "$\\text{m/s}$",
-            "$\\text{N/s}$"
+            "Sai số tuyệt đối của phép đo là $0,05\\text{ N}$.",
+            "Sai số tương đối của phép đo là $0,05\\%$.",
+            "Giá trị trung bình của phép đo là $0,05\\text{ N}$.",
+            "Kết quả chính xác của phép đo là $10,30\\text{ N}$."
           ],
           correct: 0,
-          explain: "Gia tốc $a = \\frac{\\Delta v}{\\Delta t}$ có đơn vị là mét trên giây bình phương $(\\text{m/s}^2)$."
+          explain: "Kết quả viết dưới dạng $A = \\bar{A} \\pm \\Delta A$. Ở đây $\\bar{F} = 10,25\\text{ N}$ và sai số tuyệt đối $\\Delta F = 0,05\\text{ N}$."
         },
         {
           id: 9,
-          q: "Một học sinh (HS) bắt đầu di chuyển từ A đến B rồi đến C như hình vẽ. Xác định độ dịch chuyển của bạn HS:",
-          hasGraph: "graph_c9",
+          tag: "§5 – I.VD",
+          q: "Một người bơi hết bể bơi dài $50\\text{ m}$ rồi quay đầu bơi theo chiều ngược lại hết $\\frac{1}{2}$ chiều dài bể với thời gian $20\\text{ s}$. Hỏi lúc đó người này có vận tốc trung bình là bao nhiêu?",
           options: [
-            "$\\overrightarrow{ABC} = \\vec{d}$",
-            "$\\overrightarrow{AC} = \\vec{d}$",
-            "$\\overrightarrow{BC} = \\vec{d}$",
-            "$\\overrightarrow{AB} = \\vec{d}$"
+            "$1,25\\text{ m/s}$",
+            "$-1,25\\text{ m/s}$",
+            "$2,5\\text{ m/s}$",
+            "$-2,5\\text{ m/s}$"
           ],
-          correct: 1,
-          explain: "Độ dịch chuyển là vectơ nối từ vị trí đầu (A) đến vị trí cuối (C), do đó $\\overrightarrow{AC} = \\vec{d}$."
+          correct: 0,
+          explain: "Độ dịch chuyển: $d = 50 - 25 = 25\\text{ m}$. Vận tốc trung bình: $v_{tb} = \\frac{d}{t} = \\frac{25}{20} = 1,25\\text{ m/s}$."
         },
         {
           id: 10,
-          q: "Khi vật chuyển động có độ dịch chuyển $\\vec{d}$ trong khoảng thời gian $t$. Vận tốc của vật được tính bằng công thức:",
+          tag: "§8 – I.NB",
+          q: "Chọn đáp án đúng biểu diễn biểu thức gia tốc (dạng vectơ chuẩn):",
           options: [
-            "$\\vec{v} = \\frac{t}{\\vec{d}}$",
-            "$\\vec{v} = \\vec{d} \\cdot t$",
-            "$\\vec{v} = \\vec{d} + t$",
-            "$\\vec{v} = \\frac{\\vec{d}}{t}$"
+            "$\\vec{a} = \\frac{\\Delta \\vec{v}}{\\Delta t}$",
+            "$a = \\frac{\\Delta \\vec{v}}{\\Delta t}$",
+            "$\\vec{a} = \\frac{\\Delta v}{\\Delta t}$",
+            "$\\vec{a} = \\frac{\\Delta \\vec{d}}{\\Delta t}$"
           ],
-          correct: 3,
-          explain: "Vận tốc là đại lượng vectơ: $\\vec{v} = \\frac{\\vec{d}}{t}$."
+          correct: 0,
+          explain: "Gia tốc là đại lượng vectơ đặc trưng cho sự biến thiên của vận tốc: $\\vec{a} = \\frac{\\Delta \\vec{v}}{\\Delta t}$."
         },
         {
           id: 11,
-          q: "Công thức nào sau đây thể hiện liên hệ giữa vận tốc $v$, vận tốc ban đầu $v_0$, gia tốc $a$ và độ dịch chuyển của vật trong chuyển động thẳng biến đổi đều?",
+          tag: "§8 – I.NB",
+          q: "Vật chuyển động nhanh dần đều có đặc điểm nào sau đây?",
           options: [
-            "$v - v_0 = 2ad$",
-            "$v^2 + v_0^2 = 2ad$",
-            "$v + v_0 = 2ad$",
-            "$v^2 - v_0^2 = 2ad$"
+            "$a \\cdot v = 0$",
+            "$a \\cdot v > 0$",
+            "$a \\cdot v < 0$",
+            "$a \\cdot v \\neq 0$"
           ],
-          correct: 3,
-          explain: "Hệ thức độc lập thời gian kinh điển: $v^2 - v_0^2 = 2ad$."
+          correct: 1,
+          explain: "Chuyển động thẳng nhanh dần đều có vectơ gia tốc cùng chiều với vectơ vận tốc nên $a \\cdot v > 0$."
         },
         {
           id: 12,
-          q: "Để đo tốc độ chuyển động các vật trong phòng thí nghiệm ta cần:",
+          tag: "§8 – I.TH",
+          q: "Đồ thị vận tốc – thời gian nào sau đây mô tả chuyển động có độ lớn của gia tốc là LỚN NHẤT?",
+          hasGraph: "graph_c12_4graphs",
           options: [
-            "thước đo quãng đường.",
-            "đồng hồ đo thời gian.",
-            "đo thời gian và quãng đường chuyển động của vật.",
-            "máy bắn tốc độ."
+            "Đồ thị A",
+            "Đồ thị B",
+            "Đồ thị C",
+            "Đồ thị D"
           ],
-          correct: 2,
-          explain: "Để đo tốc độ trong phòng thí nghiệm, ta đo quãng đường $s$ và khoảng thời gian $t$, sau đó áp dụng công thức $v = \\frac{s}{t}$."
+          correct: 3,
+          explain: "Gia tốc có độ lớn bằng độ dốc của đồ thị $v - t$. Đồ thị D có đường dốc dốc nhất (độ nghiêng lớn nhất) nên độ lớn gia tốc là lớn nhất."
         }
       ],
 
@@ -500,87 +516,74 @@
       part2: [
         {
           id: 13,
-          title: "Câu 13: Đánh giá tính Đúng/Sai của các mệnh đề sau:",
+          title: "Câu 13: Đồ thị độ dịch chuyển – thời gian trong chuyển động thẳng của một vật được vẽ ở hình dưới. Xét tính Đúng/Sai của các phát biểu sau:",
+          hasGraph: "graph_c13_dt",
           items: [
-            { text: "a) Chiếu tia laser mắt nhìn trực tiếp sẽ gây nguy hiểm cho mắt.", correct: true },
-            { text: "b) Các thiết bị đun nóng bằng thủy tinh sẽ không bị vỡ nên rất an toàn với người sử dụng.", correct: false, explain: "Thủy tinh có thể bị nứt vỡ do sốc nhiệt hoặc va đập cơ học, có thể gây bỏng và đứt tay." },
-            { text: "c) Công thức sai số tỉ đối của phép đo là: $\\delta A = \\frac{\\overline{\\Delta A}}{\\bar{A}} \\cdot 100\\%$.", correct: true, explain: "Công thức sai số tỉ đối chuẩn: $\\delta A = \\frac{\\overline{\\Delta A}}{\\bar{A}} \\cdot 100\\%$." },
-            { text: "d) Khi đo quãng đường di chuyển của một vật, kết quả thu được là $s = 125,86 \\pm 1,55\\text{ cm}$. Sai số tuyệt đối là $1,55\\text{ cm}$.", correct: true }
+            { text: "a) Từ giây thứ 2 đến giây thứ 4 vật chuyển động thẳng đều.", correct: false, explain: "Từ $t = 2\\text{ s}$ đến $t = 4\\text{ s}$, đồ thị là đoạn nằm ngang ($d = 4\\text{ m}$ không đổi), nghĩa là vật đứng yên (vận tốc $v = 0$)." },
+            { text: "b) Độ dốc của đồ thị độ dịch chuyển – thời gian trong chuyển động thẳng cho biết vận tốc chuyển động.", correct: true, explain: "Hệ số góc (độ dốc) của đường $d - t$ bằng vận tốc $v = \\frac{\\Delta d}{\\Delta t}$." },
+            { text: "c) Trong 2 s đầu vận tốc của vật là $2\\text{ m/s}$.", correct: true, explain: "Trong $2\\text{ s}$ đầu: $v = \\frac{4 - 0}{2 - 0} = 2\\text{ m/s}$." },
+            { text: "d) Độ dịch chuyển của xe sau 10 giây chuyển động là $-1\\text{ m}$.", correct: true, explain: "Tại thời điểm $t = 10\\text{ s}$, tung độ đồ thị nằm ở vạch $d = -1\\text{ m}$." }
           ]
         },
         {
           id: 14,
-          title: "Câu 14: Đánh giá tính Đúng/Sai đối với chuyển động và công thức:",
-          hasGraph: "graph_c14",
+          title: "Câu 14: Xét tính Đúng/Sai của các phát biểu sau:",
           items: [
-            { text: "a) Bạn An đi xe đạp từ nhà đến trường rồi quay về trạm xăng. Độ dịch chuyển của bạn An là $1200\\text{ m}$.", correct: false, explain: "Nhà ở $x_1 = 0\\text{ m}$, trạm xăng ở $x_2 = 400\\text{ m}$. Độ dịch chuyển $d = x_2 - x_1 = 400\\text{ m}$ (không phải $1200\\text{ m}$)." },
-            { text: "b) Công thức vận tốc trung bình: $\\vec{v} = \\frac{\\vec{d}}{t}$.", correct: true },
-            { text: "c) Đơn vị đo gia tốc: $\\text{m/s}$.", correct: false, explain: "Đơn vị đo chuẩn của gia tốc là $\\text{m/s}^2$." },
-            { text: "d) Công thức tính độ dịch chuyển trong chuyển động thẳng biến đổi đều: $v = v_0 + at$.", correct: false, explain: "$v = v_0 + at$ là công thức tính vận tốc, còn độ dịch chuyển là $d = v_0 t + \\frac{1}{2}at^2$." }
+            { text: "a) Tốc độ trung bình cho biết độ nhanh chậm của chuyển động.", correct: true, explain: "Tốc độ trung bình đặc trưng cho độ nhanh chậm của chuyển động trên quãng đường." },
+            { text: "b) Vận tốc trung bình được xác định bởi công thức: $v = \\frac{d}{t}$.", correct: true, explain: "Độ lớn vận tốc trung bình bằng độ dịch chuyển chia cho thời gian." },
+            { text: "c) Vật đang chuyển động thì hãm phanh chuyển động chậm dần, lúc này gia tốc ngược hướng vận tốc.", correct: true, explain: "Chuyển động chậm dần đều có vectơ gia tốc ngược chiều với vectơ vận tốc ($a \\cdot v < 0$)." },
+            { text: "d) Các kết quả từ AI luôn đúng.", correct: false, explain: "AI chỉ là công cụ hỗ trợ và có thể đưa ra kết quả chưa chính xác; cần có kiến thức kiểm chứng." }
           ]
         }
       ],
 
-      // PHẦN III: TRẢ LỜI NGẮN (6 câu x 0,33đ ≈ 2,0đ)
+      // PHẦN III: TRẢ LỜI NGẮN (4 câu: Câu 15 - 18 x 0,5đ = 2,0đ)
       part3: [
         {
           id: 15,
-          q: "Cho các phát biểu sau:\n(1) Mục tiêu học tập môn Vật lí là giúp học sinh hình thành, phát triển năng lực Toán học.\n(2) Galilei là nhà Vật lí được mệnh danh là 'Cha đẻ' của phương pháp thực nghiệm.\n(3) Có 2 phương pháp nghiên cứu Vật lí là: phương pháp thực nghiệm và phương pháp mô hình.\n(4) Việc khám phá ra hiện tượng cảm ứng điện từ là cơ sở cho sự ra đời của cách mạng khoa học kĩ thuật lần thứ nhất.\nCó bao nhiêu phát biểu ĐÚNG?",
-          acceptedAnswers: ["2", "02", "0002", "2.0"],
-          explain: "Có 2 phát biểu đúng là (2) và (3). (1) sai vì phát triển năng lực Vật lí; (4) sai vì cảm ứng điện từ là cơ sở cho cách mạng công nghiệp lần thứ hai."
+          q: "Một người bơi ngang từ bờ bên này sang bờ bên kia của một dòng sông rộng $50\\text{ m}$ có dòng chảy hướng từ Bắc đến Nam. Do nước sông chảy mạnh nên khi sang đến bờ bên kia thì người đó đã trôi xuôi theo dòng nước $50\\text{ m}$. Xác định độ lớn độ dịch chuyển của người đó theo mét? (Làm tròn đến 1 chữ số thập phân).",
+          acceptedAnswers: ["70,7", "70.7", "070,7", "070.7"],
+          explain: "Độ dịch chuyển tổng hợp: $d = \\sqrt{50^2 + 50^2} = 50\\sqrt{2} \\approx 70,71\\text{ m} \\Rightarrow 70,7\\text{ m}$."
         },
         {
           id: 16,
-          q: "Cho bảng số liệu thể hiện kết quả 5 lần đo đường kính của một viên bi thép bằng thước kẹp:",
-          hasCustomTable: "table_c16",
-          subQuestion: "Giá trị trung bình của đường kính là bao nhiêu mm? (Làm tròn đến chữ số thập phân thứ 2).",
-          acceptedAnswers: ["6,31", "6.31", "06,31", "06.31"],
-          explain: "Giá trị trung bình của đường kính:\n$$\\bar{d} = \\frac{6,32 + 6,32 + 6,34 + 6,24 + 6,32}{5} = \\frac{31,54}{5} = 6,308\\text{ mm} \\approx 6,31\\text{ mm}.$$"
+          q: "Hình bên là đồ thị vận tốc – thời gian của một thang máy khi đi từ tầng 1 lên tầng 3 của toà nhà chung cư. Tính gia tốc của thang máy trong $0,5\\text{ s}$ đầu tiên theo đơn vị $\\text{m/s}^2$?",
+          hasGraph: "graph_c16_elevator",
+          acceptedAnswers: ["4", "4.0", "4,0", "0004"],
+          explain: "Trong $0,5\\text{ s}$ đầu: vận tốc tăng từ $0$ lên $2\\text{ m/s}$. Gia tốc: $a = \\frac{v - v_0}{t} = \\frac{2 - 0}{0,5} = 4\\text{ m/s}^2$."
         },
         {
           id: 17,
-          q: "Một người điều khiển thuyền đi được $6\\text{ km}$ theo hướng bắc trên mặt hồ phẳng lặng. Sau đó, anh ta quay thuyền đi về phía tây $8\\text{ km}$. Độ dịch chuyển tổng hợp của thuyền có độ lớn bao nhiêu km?",
-          acceptedAnswers: ["10", "10.0", "10,0", "0010"],
-          explain: "Do hai hướng bắc và tây vuông góc nhau:\n$$d = \\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = 10\\text{ km}.$$"
+          q: "Một đoàn tàu đang chạy với vận tốc $72\\text{ km/h}$ thì hãm phanh chạy chậm dần, sau $10\\text{ s}$ vận tốc giảm xuống còn $15\\text{ m/s}$. Hỏi phải hãm phanh trong bao lâu kể từ khi tàu có vận tốc $72\\text{ km/h}$ thì tàu dừng hẳn (coi gia tốc không đổi) theo đơn vị giây?",
+          acceptedAnswers: ["40", "40.0", "40,0", "0040"],
+          explain: "Đổi $72\\text{ km/h} = 20\\text{ m/s}$.\nGia tốc hãm phanh: $a = \\frac{15 - 20}{10} = -0,5\\text{ m/s}^2$.\nThời gian kể từ khi hãm đến khi dừng hẳn ($v = 0$): $t = \\frac{0 - 20}{-0,5} = 40\\text{ s}$."
         },
         {
           id: 18,
-          q: "Dựa vào đồ thị ở hình bên xác định vận tốc của chuyển động (I) theo đơn vị km/h:",
-          hasGraph: "graph_c18",
-          acceptedAnswers: ["60", "60.0", "60,0", "0060"],
-          explain: "Từ đồ thị chuyển động (I): đường thẳng đi qua các mốc $(1\\text{ h}; 60\\text{ km})$, $(2\\text{ h}; 120\\text{ km})$, $(3\\text{ h}; 180\\text{ km})$.\nVận tốc của chuyển động (I):\n$$v = \\frac{\\Delta d}{\\Delta t} = \\frac{180 - 0}{3 - 0} = 60\\text{ km/h}.$$"
-        },
-        {
-          id: 19,
-          q: "Để thực hành đo tốc độ chuyển động của một xe ô tô đồ chơi bằng cách gián tiếp, chúng ta có thể sử dụng những dụng cụ thuộc số mấy sau đây?\n(1) Thước kẻ và đồng hồ bấm giây.\n(2) Đồng hồ đo thời gian hiện số và nam châm điện.\n(3) Thước kẻ và máng nghiêng.\n(4) Đồng hồ cần rung và cổng quang điện.",
-          acceptedAnswers: ["1", "01", "0001", "bộ 1"],
-          explain: "Phương án tối giản đo gián tiếp tốc độ $v = s/t$ là bộ dụng cụ (1) thước kẻ đo quãng đường và đồng hồ bấm giây đo thời gian."
-        },
-        {
-          id: 20,
-          q: "Hình dưới mô tả đồ thị độ dịch chuyển – thời gian của một chiếc xe ô tô chạy trên đường thẳng. Độ dịch chuyển của xe tính từ thời điểm $t = 0\\text{ h}$ đến thời điểm $t = 1\\text{ h}$ là bao nhiêu km?",
-          hasGraph: "graph_c20",
-          acceptedAnswers: ["45", "45.0", "45,0", "0045"],
-          explain: "Nhìn vào đồ thị $d - t$: tại thời điểm $t = 1\\text{ h}$, tung độ tương ứng trên đồ thị là $d = 45\\text{ km}$."
+          q: "Một người đang chạy xe ô tô thì nhìn vào đồng hồ đo tốc độ (tốc kế), kim đồng hồ chỉ như ảnh ($90\\text{ km/h}$). Tốc độ tức thời của vật theo đơn vị m/s là bao nhiêu?",
+          hasGraph: "graph_c18_speedometer",
+          acceptedAnswers: ["25", "25.0", "25,0", "0025"],
+          explain: "Kim tốc kế chỉ $90\\text{ km/h}$. Đổi sang m/s: $v = \\frac{90}{3,6} = 25\\text{ m/s}$."
         }
       ],
 
       // PHẦN IV: TỰ LUẬN CHỤP ẢNH BÀI LÀM (3,0 ĐIỂM)
       part4: [
         {
-          id: 21,
+          id: 19,
           points: 1.5,
-          title: "Bài 21 (1,5 điểm):",
-          q: "a. So sánh quãng đường đi được và độ dịch chuyển của một vật trong chuyển động thẳng không đổi chiều.\nb. Bạn An đi xe đạp từ nhà đến trường trên đường thẳng như hình vẽ. Khi đến quầy báo (B cách nhà 450 m), An nhận ra mình quên sách nên quay về nhà lấy rồi lại đạp xe đến trường (T cách nhà 1350 m). Thời gian cả quá trình di chuyển là 7 phút 30 giây.\n  b1. Tính quãng đường và độ dịch chuyển của An.\n  b2. Tính tốc độ trung bình của An trong cả quá trình.",
-          hasGraph: "graph_c21"
+          title: "Bài 19 (1,5 điểm):",
+          q: "Đồ thị bên dưới mô tả sự thay đổi vận tốc theo thời gian trong chuyển động của một vật đang chuyển động từ A đến B:\na. Mô tả chuyển động của vật.\nb. Gia tốc của ô tô từ giây thứ 12 đến giây thứ 20 là bao nhiêu?",
+          hasGraph: "graph_c19_vt",
+          solution: "a. Mô tả chuyển động:\n- Từ 0 đến 4 s: Chuyển động thẳng nhanh dần đều từ 0 lên 20 m/s với a = 5 m/s².\n- Từ 4 s đến 12 s: Chuyển động thẳng đều với vận tốc không đổi v = 20 m/s (a = 0).\n- Từ 12 s đến 20 s: Chuyển động thẳng chậm dần đều từ 20 m/s về 0 m/s.\n- Từ 20 s đến 28 s: Chuyển động thẳng nhanh dần đều theo chiều âm từ 0 đến -20 m/s.\n\nb. Gia tốc từ giây thứ 12 đến giây thứ 20:\na = (v20 - v12) / (20 - 12) = (0 - 20) / 8 = -2,5 m/s²."
         },
         {
-          id: 22,
+          id: 20,
           points: 1.5,
-          title: "Bài 22 (1,5 điểm):",
-          q: "Một người đi xe máy trên một đoạn đường thẳng. Tốc độ của xe máy tại mỗi thời điểm được ghi lại trong bảng dưới đây:",
-          hasCustomTable: "table_c22",
-          subQuestion: "a. Viết công thức tính gia tốc của xe.\nb. Xác định gia tốc của xe máy trong 10 s đầu tiên."
+          title: "Bài 20 (1,5 điểm):",
+          q: "Quan sát đồ thị độ dịch chuyển – thời gian ở Hình 7.3:\na) Mô tả các chuyển động (I), (II) và (III).\nb) Tính vận tốc của vật (III) theo đơn vị km/h.",
+          hasGraph: "graph_c20_3lines",
+          solution: "a. Mô tả các chuyển động:\n- Vật (I): Xuất phát từ gốc tọa độ O lúc t = 0, chuyển động thẳng đều theo chiều dương với vận tốc v1 = 180 / 3 = 60 km/h.\n- Vật (II): Xuất phát từ vị trí cách gốc 180 km lúc t = 0, chuyển động thẳng đều ngược chiều dương về gốc tọa độ O với vận tốc v2 = (0 - 180) / 3 = -60 km/h.\n- Vật (III): Xuất phát từ gốc O lúc t = 0, chuyển động thẳng đều theo chiều dương với vận tốc chậm hơn vật (I).\n\nb. Vận tốc của vật (III):\nv3 = Δd / Δt = (60 - 0) / (3 - 0) = 20 km/h."
         }
       ]
     };
@@ -598,7 +601,7 @@
       }
     };
 
-    let timeLeft = 45 * 60; // 45 phút = 2700s
+    let timeLeft = 45 * 60;
     let timerInterval = null;
     let isSubmitted = false;
 
@@ -606,236 +609,316 @@
        4. HÀM VẼ ĐỒ THỊ VÀ MINH HỌA BẰNG SVG SẮC NÉT
        ============================================================== */
     function getSvgGraphic(type) {
-      if (type === "graph_c3") {
+      if (type === "graph_c3_flame") {
         return `
           <div class="flex justify-center my-3">
-            <svg width="220" height="230" viewBox="0 0 220 230" class="bg-white rounded-xl border border-slate-200 shadow-xs">
-              <line x1="35" y1="200" x2="205" y2="200" stroke="#0f172a" stroke-width="2.2" />
-              <polyline points="200,196 208,200 200,204" fill="#0f172a" />
-              <text x="195" y="218" font-size="12" font-weight="bold" fill="#0f172a">t(s)</text>
-
-              <line x1="35" y1="200" x2="35" y2="25" stroke="#0f172a" stroke-width="2.2" />
-              <polyline points="31,30 35,20 39,30" fill="#0f172a" />
-              <text x="6" y="25" font-size="12" font-weight="bold" fill="#0f172a">d(m)</text>
-              <text x="22" y="215" font-size="11" fill="#475569">O</text>
-
-              <line x1="85" y1="200" x2="85" y2="148" stroke="#94a3b8" stroke-dasharray="3,3" />
-              <line x1="35" y1="148" x2="85" y2="148" stroke="#94a3b8" stroke-dasharray="3,3" />
-              <text x="81" y="216" font-size="11" fill="#334155">5</text>
-              <text x="12" y="152" font-size="11" fill="#334155">12</text>
-
-              <line x1="135" y1="200" x2="135" y2="96" stroke="#94a3b8" stroke-dasharray="3,3" />
-              <line x1="35" y1="96" x2="135" y2="96" stroke="#94a3b8" stroke-dasharray="3,3" />
-              <text x="129" y="216" font-size="11" fill="#334155">10</text>
-              <text x="12" y="100" font-size="11" fill="#334155">24</text>
-
-              <line x1="185" y1="200" x2="185" y2="44" stroke="#94a3b8" stroke-dasharray="3,3" />
-              <line x1="35" y1="44" x2="185" y2="44" stroke="#94a3b8" stroke-dasharray="3,3" />
-              <text x="179" y="216" font-size="11" fill="#334155">15</text>
-              <text x="12" y="48" font-size="11" fill="#334155">36</text>
-
-              <line x1="35" y1="200" x2="185" y2="44" stroke="#0284c7" stroke-width="3.5" stroke-linecap="round" />
-              <circle cx="85" cy="148" r="3.5" fill="#0284c7" />
-              <circle cx="135" cy="96" r="3.5" fill="#0284c7" />
-              <circle cx="185" cy="44" r="3.5" fill="#0284c7" />
+            <svg width="150" height="135" viewBox="0 0 150 135" class="bg-white rounded-xl border border-slate-200 shadow-xs p-2">
+              <polygon points="75,8 142,126 8,126" fill="#fde047" stroke="#0f172a" stroke-width="7" stroke-linejoin="round" />
+              <polygon points="75,18 134,120 16,120" fill="none" stroke="#0f172a" stroke-width="3" stroke-linejoin="round" />
+              <!-- Ngọn lửa màu đen -->
+              <path d="M75,38 C72,48 64,55 64,66 C64,78 72,83 72,90 C72,96 68,100 64,103 C60,106 58,109 58,112 L92,112 C92,109 90,106 86,103 C82,100 78,96 78,90 C78,83 86,78 86,66 C86,55 78,48 75,38 Z" fill="#0f172a" />
+              <path d="M75,50 C77,58 83,66 83,75 C83,86 76,92 76,100 C76,105 80,108 83,112 L67,112 C70,108 74,105 74,100 C74,92 67,86 67,75 C67,66 73,58 75,50 Z" fill="#fde047" />
+              <line x1="52" y1="116" x2="98" y2="116" stroke="#0f172a" stroke-width="3" stroke-linecap="round" />
             </svg>
           </div>
         `;
-      } else if (type === "graph_c5") {
+      } else if (type === "graph_c12_4graphs") {
         return `
-          <div class="flex justify-center my-3">
-            <svg width="340" height="110" viewBox="0 0 340 110" class="bg-slate-50 rounded-xl border border-slate-200">
-              <rect x="20" y="55" width="300" height="8" rx="2" fill="#cbd5e1" stroke="#64748b" />
-              <line x1="20" y1="20" x2="70" y2="55" stroke="#94a3b8" stroke-width="6" stroke-linecap="round" />
-              
-              <rect x="18" y="12" width="16" height="14" rx="2" fill="#334155" />
-              <text x="15" y="9" font-size="10" font-weight="bold" fill="#0284c7">(1) Nam châm</text>
-              
-              <rect x="110" y="32" width="14" height="26" fill="#0f172a" rx="1" />
-              <text x="96" y="26" font-size="10" font-weight="bold" fill="#e11d48">(3) Cổng 1</text>
-              
-              <rect x="240" y="32" width="14" height="26" fill="#0f172a" rx="1" />
-              <text x="226" y="26" font-size="10" font-weight="bold" fill="#e11d48">(4) Cổng 2</text>
-              
-              <rect x="135" y="68" width="80" height="34" rx="4" fill="#1e293b" />
-              <rect x="145" y="74" width="40" height="14" rx="2" fill="#000" />
-              <text x="150" y="85" font-size="10" font-family="monospace" fill="#ef4444">0.000</text>
-              <text x="180" y="96" font-size="9" fill="#94a3b8">(6) MC964</text>
-              
-              <circle cx="170" cy="51" r="5" fill="#f59e0b" stroke="#b45309" />
-              <text x="165" y="42" font-size="9" fill="#b45309">(2) Bi</text>
-            </svg>
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 my-3">
+            <!-- Đồ thị A -->
+            <div class="bg-white p-2 rounded-xl border border-slate-200 text-center">
+              <svg width="120" height="95" viewBox="0 0 120 95" class="mx-auto">
+                <line x1="20" y1="75" x2="110" y2="75" stroke="#0f172a" stroke-width="1.8" />
+                <polygon points="110,72 117,75 110,78" fill="#0f172a" />
+                <text x="106" y="90" font-size="10" font-weight="bold">t</text>
+
+                <line x1="20" y1="75" x2="20" y2="12" stroke="#0f172a" stroke-width="1.8" />
+                <polygon points="17,12 20,5 23,12" fill="#0f172a" />
+                <text x="7" y="16" font-size="10" font-weight="bold">v</text>
+                <text x="9" y="86" font-size="9" fill="#64748b">O</text>
+
+                <line x1="20" y1="35" x2="95" y2="35" stroke="#94a3b8" stroke-dasharray="2,2" />
+                <line x1="20" y1="50" x2="95" y2="50" stroke="#db2777" stroke-width="2.6" />
+              </svg>
+              <span class="text-xs font-bold text-slate-700">Đồ thị A</span>
+            </div>
+
+            <!-- Đồ thị B -->
+            <div class="bg-white p-2 rounded-xl border border-slate-200 text-center">
+              <svg width="120" height="95" viewBox="0 0 120 95" class="mx-auto">
+                <line x1="20" y1="75" x2="110" y2="75" stroke="#0f172a" stroke-width="1.8" />
+                <polygon points="110,72 117,75 110,78" fill="#0f172a" />
+                <text x="106" y="90" font-size="10" font-weight="bold">t</text>
+
+                <line x1="20" y1="75" x2="20" y2="12" stroke="#0f172a" stroke-width="1.8" />
+                <polygon points="17,12 20,5 23,12" fill="#0f172a" />
+                <text x="7" y="16" font-size="10" font-weight="bold">v</text>
+                <text x="9" y="86" font-size="9" fill="#64748b">O</text>
+
+                <line x1="20" y1="45" x2="95" y2="45" stroke="#94a3b8" stroke-dasharray="2,2" />
+                <line x1="20" y1="45" x2="95" y2="22" stroke="#db2777" stroke-width="2.6" />
+              </svg>
+              <span class="text-xs font-bold text-slate-700">Đồ thị B</span>
+            </div>
+
+            <!-- Đồ thị C -->
+            <div class="bg-white p-2 rounded-xl border border-slate-200 text-center">
+              <svg width="120" height="95" viewBox="0 0 120 95" class="mx-auto">
+                <line x1="20" y1="75" x2="110" y2="75" stroke="#0f172a" stroke-width="1.8" />
+                <polygon points="110,72 117,75 110,78" fill="#0f172a" />
+                <text x="106" y="90" font-size="10" font-weight="bold">t</text>
+
+                <line x1="20" y1="75" x2="20" y2="12" stroke="#0f172a" stroke-width="1.8" />
+                <polygon points="17,12 20,5 23,12" fill="#0f172a" />
+                <text x="7" y="16" font-size="10" font-weight="bold">v</text>
+                <text x="9" y="86" font-size="9" fill="#64748b">O</text>
+
+                <line x1="20" y1="45" x2="95" y2="45" stroke="#94a3b8" stroke-dasharray="2,2" />
+                <line x1="20" y1="45" x2="95" y2="35" stroke="#db2777" stroke-width="2.6" />
+              </svg>
+              <span class="text-xs font-bold text-slate-700">Đồ thị C</span>
+            </div>
+
+            <!-- Đồ thị D (dốc đứng nhất -> gia tốc lớn nhất) -->
+            <div class="bg-white p-2 rounded-xl border border-slate-200 text-center ring-2 ring-pink-400/40">
+              <svg width="120" height="95" viewBox="0 0 120 95" class="mx-auto">
+                <line x1="20" y1="75" x2="110" y2="75" stroke="#0f172a" stroke-width="1.8" />
+                <polygon points="110,72 117,75 110,78" fill="#0f172a" />
+                <text x="106" y="90" font-size="10" font-weight="bold">t</text>
+
+                <line x1="20" y1="75" x2="20" y2="12" stroke="#0f172a" stroke-width="1.8" />
+                <polygon points="17,12 20,5 23,12" fill="#0f172a" />
+                <text x="7" y="16" font-size="10" font-weight="bold">v</text>
+                <text x="9" y="86" font-size="9" fill="#64748b">O</text>
+
+                <line x1="20" y1="35" x2="95" y2="35" stroke="#94a3b8" stroke-dasharray="2,2" />
+                <line x1="20" y1="35" x2="65" y2="75" stroke="#db2777" stroke-width="3" />
+              </svg>
+              <span class="text-xs font-bold text-pink-700">Đồ thị D</span>
+            </div>
           </div>
         `;
-      } else if (type === "graph_c9") {
+      } else if (type === "graph_c13_dt") {
         return `
           <div class="flex justify-center my-3">
-            <svg width="290" height="175" viewBox="0 0 290 175" class="bg-white rounded-xl border border-slate-200 shadow-xs">
-              <!-- Điểm A -->
-              <circle cx="45" cy="140" r="5.5" fill="#0284c7" />
-              <text x="24" y="148" font-size="13" font-weight="800" fill="#0284c7">A</text>
-              
-              <!-- Điểm B (góc vuông tại B) -->
-              <circle cx="75" cy="40" r="5.5" fill="#e11d48" />
-              <text x="56" y="30" font-size="13" font-weight="800" fill="#e11d48">B</text>
-              
-              <!-- Ký hiệu góc vuông tại B -->
-              <path d="M 75 52 L 87 52 L 87 40" fill="none" stroke="#64748b" stroke-width="1.8" />
-              
-              <!-- Điểm C -->
-              <circle cx="235" cy="40" r="5.5" fill="#10b981" />
-              <text x="246" y="44" font-size="13" font-weight="800" fill="#10b981">C</text>
-
-              <!-- Đoạn A -> B -->
-              <line x1="45" y1="140" x2="73" y2="46" stroke="#f43f5e" stroke-width="2.8" />
-              <polygon points="75,40 68,48 78,51" fill="#f43f5e" />
-              <text x="35" y="90" font-size="11" font-weight="bold" fill="#f43f5e">4 m</text>
-              
-              <!-- Đoạn B -> C -->
-              <line x1="75" y1="40" x2="227" y2="40" stroke="#f43f5e" stroke-width="2.8" />
-              <polygon points="235,40 225,35 225,45" fill="#f43f5e" />
-              <text x="145" y="30" font-size="11" font-weight="bold" fill="#f43f5e">3 m</text>
-              
-              <!-- Vectơ độ dịch chuyển A -> C -->
-              <line x1="45" y1="140" x2="229" y2="44" stroke="#8b5cf6" stroke-width="3" stroke-dasharray="5,4" />
-              <polygon points="235,40 222,43 228,52" fill="#8b5cf6" />
-              <text x="135" y="110" font-size="12" font-weight="bold" fill="#8b5cf6">Vectơ d = 5 m</text>
-            </svg>
-          </div>
-        `;
-      } else if (type === "graph_c14") {
-        return `
-          <div class="flex justify-center my-3 overflow-x-auto">
-            <svg width="340" height="85" viewBox="0 0 340 85" class="bg-white rounded-xl border border-slate-200">
-              <line x1="20" y1="48" x2="320" y2="48" stroke="#334155" stroke-width="2" />
-              
-              <line x1="30" y1="43" x2="30" y2="53" stroke="#334155" stroke-width="2" />
-              <text x="22" y="68" font-size="10" font-weight="bold" fill="#0f172a">N (0)</text>
-
-              <line x1="110" y1="44" x2="110" y2="52" stroke="#94a3b8" />
-              <text x="96" y="68" font-size="9" fill="#64748b">X (400m)</text>
-
-              <line x1="190" y1="44" x2="190" y2="52" stroke="#94a3b8" />
-              <text x="178" y="68" font-size="9" fill="#64748b">S (800m)</text>
-
-              <line x1="280" y1="43" x2="280" y2="53" stroke="#334155" stroke-width="2" />
-              <text x="264" y="68" font-size="10" font-weight="bold" fill="#e11d48">T (1200m)</text>
-
-              <polygon points="325,48 318,44 318,52" fill="#334155" />
-              <text x="322" y="64" font-size="9" fill="#475569">x(m)</text>
-            </svg>
-          </div>
-        `;
-      } else if (type === "graph_c18") {
-        // ĐỒ THỊ CÂU 18: LƯỚI Ô VUÔNG CHUẨN XÁC, ĐƯỜNG GIÓNG ĐỨT NÉT RÕ RÀNG
-        return `
-          <div class="flex justify-center my-3">
-            <svg width="290" height="290" viewBox="0 0 290 290" class="bg-white rounded-2xl border-2 border-slate-300 shadow-md">
+            <svg width="340" height="230" viewBox="0 0 340 230" class="bg-white rounded-2xl border border-slate-300 shadow-sm p-1">
+              <!-- Lưới ngang dọc đứt nét -->
               <defs>
-                <pattern id="grid18_small" width="20" height="20" patternUnits="userSpaceOnUse">
-                  <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e2e8f0" stroke-width="0.8"/>
-                </pattern>
-                <pattern id="grid18_large" width="60" height="60" patternUnits="userSpaceOnUse">
-                  <rect width="60" height="60" fill="url(#grid18_small)"/>
-                  <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#cbd5e1" stroke-width="1.6"/>
+                <pattern id="grid13" width="26" height="26" patternUnits="userSpaceOnUse">
+                  <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#cbd5e1" stroke-dasharray="2,2" stroke-width="1" />
                 </pattern>
               </defs>
+              <rect x="40" y="20" width="260" height="182" fill="url(#grid13)" />
 
-              <rect x="50" y="30" width="180" height="180" fill="url(#grid18_large)" />
+              <!-- Trục hoành t(s) tại d = 0 (y = 150) -->
+              <line x1="30" y1="150" x2="315" y2="150" stroke="#0284c7" stroke-width="2.4" stroke-dasharray="3,2" />
+              <polygon points="315,146 325,150 315,154" fill="#0284c7" />
+              <text x="312" y="170" font-size="12" font-weight="bold" fill="#0284c7">t (s)</text>
 
-              <!-- CÁC ĐƯỜNG GIÓNG ĐỨT NÉT RÕ RÀNG TỪNG MỐC CỦA ĐƯỜNG (I) -->
-              <line x1="50" y1="150" x2="110" y2="150" stroke="#0284c7" stroke-width="2" stroke-dasharray="5,4" />
-              <line x1="110" y1="210" x2="110" y2="150" stroke="#0284c7" stroke-width="2" stroke-dasharray="5,4" />
+              <!-- Trục tung d(m) tại t = 0 (x = 40) -->
+              <line x1="40" y1="205" x2="40" y2="15" stroke="#0284c7" stroke-width="2.4" />
+              <polygon points="36,15 40,5 44,15" fill="#0284c7" />
+              <text x="8" y="20" font-size="12" font-weight="bold" fill="#0284c7">d (m)</text>
 
-              <line x1="50" y1="90" x2="170" y2="90" stroke="#0284c7" stroke-width="2" stroke-dasharray="5,4" />
-              <line x1="170" y1="210" x2="170" y2="90" stroke="#0284c7" stroke-width="2" stroke-dasharray="5,4" />
+              <!-- Mốc O -->
+              <text x="24" y="165" font-size="11" font-weight="bold" fill="#64748b">0</text>
 
-              <line x1="50" y1="30" x2="230" y2="30" stroke="#0284c7" stroke-width="2" stroke-dasharray="5,4" />
-              <line x1="230" y1="210" x2="230" y2="30" stroke="#0284c7" stroke-width="2" stroke-dasharray="5,4" />
+              <!-- Các vạch số trên trục tung -->
+              <text x="24" y="128" font-size="11" font-weight="bold" fill="#334155">1</text>
+              <text x="24" y="102" font-size="11" font-weight="bold" fill="#334155">2</text>
+              <text x="24" y="76" font-size="11" font-weight="bold" fill="#334155">3</text>
+              <text x="24" y="50" font-size="11" font-weight="bold" fill="#334155">4</text>
+              <text x="18" y="180" font-size="11" font-weight="bold" fill="#334155">-1</text>
 
-              <!-- TRỤC TỌA ĐỘ CHÍNH DÀY DẶN -->
-              <line x1="50" y1="210" x2="265" y2="210" stroke="#0f172a" stroke-width="2.6" stroke-linecap="round" />
-              <polygon points="265,206 277,210 265,214" fill="#0f172a" />
-              <text x="260" y="235" font-size="14" font-weight="800" fill="#0f172a">t (h)</text>
+              <!-- Các vạch số trên trục hoành -->
+              <text x="63" y="166" font-size="10" font-weight="bold" fill="#334155">1</text>
+              <text x="89" y="166" font-size="10" font-weight="bold" fill="#334155">2</text>
+              <text x="115" y="166" font-size="10" font-weight="bold" fill="#334155">3</text>
+              <text x="141" y="166" font-size="10" font-weight="bold" fill="#334155">4</text>
+              <text x="167" y="166" font-size="10" font-weight="bold" fill="#334155">5</text>
+              <text x="193" y="166" font-size="10" font-weight="bold" fill="#334155">6</text>
+              <text x="219" y="166" font-size="10" font-weight="bold" fill="#334155">7</text>
+              <text x="245" y="166" font-size="10" font-weight="bold" fill="#334155">8</text>
+              <text x="271" y="166" font-size="10" font-weight="bold" fill="#334155">9</text>
+              <text x="294" y="166" font-size="10" font-weight="bold" fill="#334155">10</text>
 
-              <line x1="50" y1="210" x2="50" y2="15" stroke="#0f172a" stroke-width="2.6" stroke-linecap="round" />
-              <polygon points="46,15 50,3 54,15" fill="#0f172a" />
-              <text x="12" y="20" font-size="14" font-weight="800" fill="#0f172a">d (km)</text>
-
-              <text x="32" y="226" font-size="13" font-weight="700" fill="#475569">O</text>
-
-              <line x1="110" y1="207" x2="110" y2="215" stroke="#0f172a" stroke-width="2" />
-              <text x="106" y="230" font-size="13" font-weight="700" fill="#1e293b">1</text>
-
-              <line x1="170" y1="207" x2="170" y2="215" stroke="#0f172a" stroke-width="2" />
-              <text x="166" y="230" font-size="13" font-weight="700" fill="#1e293b">2</text>
-
-              <line x1="230" y1="207" x2="230" y2="215" stroke="#0f172a" stroke-width="2" />
-              <text x="226" y="230" font-size="13" font-weight="700" fill="#1e293b">3</text>
-
-              <line x1="46" y1="150" x2="54" y2="150" stroke="#0f172a" stroke-width="2" />
-              <text x="18" y="154" font-size="13" font-weight="700" fill="#1e293b">60</text>
-
-              <line x1="46" y1="90" x2="54" y2="90" stroke="#0f172a" stroke-width="2" />
-              <text x="11" y="94" font-size="13" font-weight="700" fill="#1e293b">120</text>
-
-              <line x1="46" y1="30" x2="54" y2="30" stroke="#0f172a" stroke-width="2" />
-              <text x="11" y="34" font-size="13" font-weight="700" fill="#1e293b">180</text>
-
-              <!-- ĐƯỜNG (II) -->
-              <line x1="50" y1="210" x2="235" y2="148" stroke="#0284c7" stroke-width="3" stroke-linecap="round" />
-              <circle cx="230" cy="150" r="4" fill="#0284c7" />
-              <text x="240" y="150" font-size="13" font-weight="800" fill="#0284c7">(II)</text>
-
-              <!-- ĐƯỜNG (I) -->
-              <line x1="50" y1="210" x2="235" y2="25" stroke="#db2777" stroke-width="3.5" stroke-linecap="round" />
-              <circle cx="110" cy="150" r="4.5" fill="#db2777" stroke="#ffffff" stroke-width="1.5" />
-              <circle cx="170" cy="90" r="4.5" fill="#db2777" stroke="#ffffff" stroke-width="1.5" />
-              <circle cx="230" cy="30" r="5" fill="#db2777" stroke="#ffffff" stroke-width="1.5" />
-              <text x="240" y="30" font-size="14" font-weight="900" fill="#db2777">(I)</text>
+              <!-- ĐƯỜNG ĐỒ THỊ CHUYỂN ĐỘNG D(T) MÀU XANH DƯƠNG NỔI BẬT -->
+              <!-- (0,0) -> (2s, 4m) -> (4s, 4m) -> (8s, 0m) -> (9s, -1m) -> (10s, -1m) -->
+              <polyline points="40,150 92,46 144,46 248,150 274,176 300,176" 
+                fill="none" stroke="#0284c7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
           </div>
         `;
-      } else if (type === "graph_c20") {
+      } else if (type === "graph_c16_elevator") {
         return `
           <div class="flex justify-center my-3">
-            <svg width="200" height="190" viewBox="0 0 200 190" class="bg-white rounded-xl border border-slate-200">
-              <line x1="30" y1="150" x2="180" y2="150" stroke="#0f172a" stroke-width="2" />
-              <line x1="30" y1="150" x2="30" y2="15" stroke="#0f172a" stroke-width="2" />
-              <text x="165" y="168" font-size="11" font-weight="bold" fill="#0f172a">t(h)</text>
-              <text x="5" y="18" font-size="11" font-weight="bold" fill="#0f172a">d(km)</text>
+            <svg width="250" height="180" viewBox="0 0 250 180" class="bg-white rounded-xl border border-slate-200 shadow-xs">
+              <!-- Lưới ô vuông -->
+              <defs>
+                <pattern id="grid16" width="30" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 30 0 L 0 0 0 25" fill="none" stroke="#e2e8f0" stroke-dasharray="2,2" stroke-width="1" />
+                </pattern>
+              </defs>
+              <rect x="35" y="20" width="180" height="125" fill="url(#grid16)" />
 
-              <text x="18" y="162" font-size="10" fill="#64748b">O</text>
-              <text x="60" y="166" font-size="9" fill="#334155">0,5</text>
-              <text x="100" y="166" font-size="10" font-weight="bold" fill="#e11d48">1</text>
-              <text x="135" y="166" font-size="9" fill="#334155">1,5</text>
-              <text x="170" y="166" font-size="9" fill="#334155">2</text>
+              <!-- Trục tọa độ -->
+              <line x1="35" y1="145" x2="235" y2="145" stroke="#0f172a" stroke-width="2" />
+              <polygon points="235,142 243,145 235,148" fill="#0f172a" />
+              <text x="228" y="165" font-size="11" font-weight="bold">t (s)</text>
 
-              <text x="8" y="85" font-size="10" font-weight="bold" fill="#e11d48">45</text>
-              <text x="8" y="25" font-size="10" fill="#334155">90</text>
+              <line x1="35" y1="145" x2="35" y2="15" stroke="#0f172a" stroke-width="2" />
+              <polygon points="32,15 35,7 38,15" fill="#0f172a" />
+              <text x="8" y="20" font-size="11" font-weight="bold">v (m/s)</text>
+              <text x="20" y="158" font-size="11" fill="#64748b">O</text>
 
-              <line x1="102" y1="150" x2="102" y2="85" stroke="#cbd5e1" stroke-dasharray="2,2" />
-              <line x1="30" y1="85" x2="102" y2="85" stroke="#cbd5e1" stroke-dasharray="2,2" />
+              <!-- Số liệu trục tung -->
+              <text x="18" y="99" font-size="11" font-weight="bold" fill="#334155">1</text>
+              <text x="18" y="49" font-size="11" font-weight="bold" fill="#334155">2</text>
 
-              <line x1="30" y1="150" x2="175" y2="20" stroke="#0284c7" stroke-width="3" />
+              <!-- Số liệu trục hoành -->
+              <text x="90" y="162" font-size="11" font-weight="bold" fill="#334155">1</text>
+              <text x="150" y="162" font-size="11" font-weight="bold" fill="#334155">2</text>
+              <text x="210" y="162" font-size="11" font-weight="bold" fill="#334155">3</text>
+
+              <!-- Đường v(t): (0,0) -> (0.5s, 2m/s) -> (2.5s, 2m/s) -> (3s, 0) -->
+              <!-- 1s = 60px -> 0.5s = 65px; 2.5s = 185px; 3s = 215px. 2m/s = 45px -->
+              <line x1="65" y1="145" x2="65" y2="45" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="3,3" />
+              <line x1="185" y1="145" x2="185" y2="45" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="3,3" />
+              <line x1="35" y1="45" x2="65" y2="45" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="3,3" />
+
+              <polyline points="35,145 65,45 185,45 215,145" fill="none" stroke="#db2777" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
           </div>
         `;
-      } else if (type === "graph_c21") {
+      } else if (type === "graph_c18_speedometer") {
         return `
-          <div class="flex justify-center my-3 overflow-x-auto">
-            <svg width="340" height="70" viewBox="0 0 340 70" class="bg-pink-50/50 rounded-xl border border-pink-100">
-              <line x1="20" y1="35" x2="310" y2="35" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round" />
-              <circle cx="35" cy="35" r="6" fill="#e11d48" />
-              <text x="15" y="55" font-size="10" font-weight="bold" fill="#e11d48">A (Nhà)</text>
+          <div class="flex justify-center my-3">
+            <svg width="260" height="150" viewBox="0 0 260 150" class="bg-slate-900 rounded-2xl border-2 border-slate-700 shadow-md">
+              <!-- Nền đồng hồ tốc độ xe hơi -->
+              <path d="M 30 130 A 100 100 0 0 1 230 130" fill="none" stroke="#1e293b" stroke-width="16" stroke-linecap="round" />
+              <path d="M 30 130 A 100 100 0 0 1 230 130" fill="none" stroke="#22c55e" stroke-width="3" stroke-dasharray="4,6" />
 
-              <circle cx="120" cy="35" r="5" fill="#f59e0b" />
-              <text x="95" y="55" font-size="10" font-weight="bold" fill="#b45309">B (Quầy báo)</text>
-              <text x="60" y="25" font-size="9" fill="#64748b">450 m</text>
+              <!-- Các vạch số km/h -->
+              <text x="35" y="125" font-size="11" font-weight="bold" fill="#22c55e">0</text>
+              <text x="36" y="90" font-size="11" font-weight="bold" fill="#22c55e">20</text>
+              <text x="52" y="60" font-size="11" font-weight="bold" fill="#22c55e">40</text>
+              <text x="80" y="40" font-size="11" font-weight="bold" fill="#22c55e">60</text>
+              <text x="118" y="32" font-size="12" font-weight="black" fill="#f43f5e">80</text>
+              <text x="156" y="40" font-size="11" font-weight="bold" fill="#22c55e">100</text>
+              <text x="186" y="60" font-size="11" font-weight="bold" fill="#22c55e">120</text>
+              <text x="200" y="90" font-size="11" font-weight="bold" fill="#22c55e">140</text>
 
-              <circle cx="290" cy="35" r="6" fill="#0284c7" />
-              <text x="265" y="55" font-size="10" font-weight="bold" fill="#0284c7">T (Trường)</text>
-              <text x="185" y="25" font-size="9" fill="#0284c7">1350 m</text>
+              <text x="115" y="75" font-size="10" font-weight="bold" fill="#94a3b8">km/h</text>
+
+              <!-- Màn hình điện tử hiển thị TRIP 25.7 -->
+              <rect x="95" y="90" width="70" height="18" rx="3" fill="#064e3b" stroke="#047857" />
+              <text x="105" y="103" font-size="11" font-family="monospace" font-weight="bold" fill="#4ade80">90 km/h</text>
+
+              <!-- Kim chỉ 90 km/h (chếch phải góc ~ 98 độ) -->
+              <circle cx="130" cy="130" r="10" fill="#f43f5e" />
+              <!-- Tọa độ đầu kim: tâm (130, 130), vươn lên mốc 90 km/h tại (142, 42) -->
+              <line x1="130" y1="130" x2="144" y2="42" stroke="#ef4444" stroke-width="3.5" stroke-linecap="round" />
+              <circle cx="130" cy="130" r="4" fill="#ffffff" />
+            </svg>
+          </div>
+        `;
+      } else if (type === "graph_c19_vt") {
+        return `
+          <div class="flex justify-center my-3">
+            <svg width="340" height="210" viewBox="0 0 340 210" class="bg-white rounded-2xl border border-slate-300 shadow-sm p-1">
+              <!-- Lưới ô vuông mờ -->
+              <defs>
+                <pattern id="grid19" width="30" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 30 0 L 0 0 0 25" fill="none" stroke="#e2e8f0" stroke-width="0.8" />
+                </pattern>
+              </defs>
+              <rect x="40" y="15" width="270" height="165" fill="url(#grid19)" />
+
+              <!-- Trục hoành tại v = 0 (y = 115) -->
+              <line x1="30" y1="115" x2="320" y2="115" stroke="#0f172a" stroke-width="2" />
+              <polygon points="320,112 328,115 320,118" fill="#0f172a" />
+              <text x="316" y="132" font-size="11" font-weight="bold">t(s)</text>
+
+              <!-- Trục tung tại t = 0 (x = 40) -->
+              <line x1="40" y1="195" x2="40" y2="15" stroke="#0f172a" stroke-width="2" />
+              <polygon points="37,15 40,7 43,15" fill="#0f172a" />
+              <text x="6" y="20" font-size="11" font-weight="bold">v(m/s)</text>
+
+              <!-- Mốc O -->
+              <text x="24" y="128" font-size="10" fill="#64748b">0</text>
+
+              <!-- Các vạch số trục tung -->
+              <text x="18" y="55" font-size="10" font-weight="bold" fill="#334155">20</text>
+              <text x="18" y="85" font-size="10" font-weight="bold" fill="#334155">10</text>
+              <text x="12" y="150" font-size="10" font-weight="bold" fill="#334155">-10</text>
+              <text x="12" y="180" font-size="10" font-weight="bold" fill="#334155">-20</text>
+
+              <!-- Các vạch số trục hoành (mỗi 4s = 35px) -->
+              <!-- 4s: 75, 8s: 110, 12s: 145, 16s: 180, 20s: 215, 24s: 250, 28s: 285 -->
+              <text x="72" y="130" font-size="10" fill="#334155">4</text>
+              <text x="107" y="130" font-size="10" fill="#334155">8</text>
+              <text x="140" y="130" font-size="10" font-weight="bold" fill="#0284c7">12</text>
+              <text x="175" y="130" font-size="10" fill="#334155">16</text>
+              <text x="208" y="130" font-size="10" font-weight="bold" fill="#0284c7">20</text>
+              <text x="244" y="130" font-size="10" fill="#334155">24</text>
+              <text x="280" y="130" font-size="10" fill="#334155">28</text>
+
+              <!-- Đường gióng đứt nét -->
+              <line x1="40" y1="50" x2="145" y2="50" stroke="#94a3b8" stroke-dasharray="3,3" />
+              <line x1="75" y1="115" x2="75" y2="50" stroke="#94a3b8" stroke-dasharray="3,3" />
+              <line x1="145" y1="115" x2="145" y2="50" stroke="#94a3b8" stroke-dasharray="3,3" />
+              <line x1="285" y1="115" x2="285" y2="175" stroke="#94a3b8" stroke-dasharray="3,3" />
+              <line x1="40" y1="175" x2="285" y2="175" stroke="#94a3b8" stroke-dasharray="3,3" />
+
+              <!-- ĐỒ THỊ V-T -->
+              <polyline points="40,115 75,50 145,50 215,115 285,175" 
+                fill="none" stroke="#0284c7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+        `;
+      } else if (type === "graph_c20_3lines") {
+        return `
+          <div class="flex justify-center my-3">
+            <svg width="270" height="260" viewBox="0 0 270 260" class="bg-white rounded-2xl border-2 border-slate-300 shadow-sm p-1">
+              <!-- Lưới ô vuông -->
+              <defs>
+                <pattern id="grid20" width="55" height="55" patternUnits="userSpaceOnUse">
+                  <path d="M 55 0 L 0 0 0 55" fill="none" stroke="#cbd5e1" stroke-dasharray="3,3" stroke-width="1.2" />
+                </pattern>
+              </defs>
+              <rect x="45" y="25" width="165" height="165" fill="url(#grid20)" />
+
+              <!-- Trục tọa độ -->
+              <line x1="45" y1="190" x2="245" y2="190" stroke="#0f172a" stroke-width="2.4" />
+              <polygon points="245,186 255,190 245,194" fill="#0f172a" />
+              <text x="240" y="210" font-size="12" font-weight="bold">t (h)</text>
+
+              <line x1="45" y1="190" x2="45" y2="15" stroke="#0f172a" stroke-width="2.4" />
+              <polygon points="41,15 45,5 49,15" fill="#0f172a" />
+              <text x="8" y="20" font-size="12" font-weight="bold">d (km)</text>
+              <text x="26" y="204" font-size="12" fill="#64748b">O</text>
+
+              <!-- Các số trên trục hoành t (h) -->
+              <text x="96" y="208" font-size="12" font-weight="bold" fill="#334155">1</text>
+              <text x="151" y="208" font-size="12" font-weight="bold" fill="#334155">2</text>
+              <text x="206" y="208" font-size="12" font-weight="bold" fill="#334155">3</text>
+
+              <!-- Các số trên trục tung d (km) -->
+              <text x="18" y="140" font-size="12" font-weight="bold" fill="#334155">60</text>
+              <text x="12" y="85" font-size="12" font-weight="bold" fill="#334155">120</text>
+              <text x="12" y="30" font-size="12" font-weight="bold" fill="#334155">180</text>
+
+              <!-- Đường (I): (0,0) -> (3h, 180km) -->
+              <line x1="45" y1="190" x2="210" y2="25" stroke="#0f172a" stroke-width="2.8" stroke-linecap="round" />
+              <text x="215" y="30" font-size="13" font-weight="extrabold" fill="#0f172a">(I)</text>
+
+              <!-- Đường (II): (0, 180km) -> (3h, 0km) -->
+              <line x1="45" y1="25" x2="210" y2="190" stroke="#0f172a" stroke-width="2.8" stroke-linecap="round" />
+              <text x="215" y="195" font-size="13" font-weight="extrabold" fill="#0f172a">(II)</text>
+
+              <!-- Đường (III): (0, 0) -> (3h, 60km) -->
+              <line x1="45" y1="190" x2="210" y2="135" stroke="#0f172a" stroke-width="2.8" stroke-linecap="round" />
+              <text x="215" y="140" font-size="13" font-weight="extrabold" fill="#0f172a">(III)</text>
             </svg>
           </div>
         `;
@@ -847,7 +930,7 @@
        5. RENDER BÀI KIỂM TRA & RENDER KATEX TỰ ĐỘNG
        ============================================================== */
     function renderQuiz() {
-      // 1. RENDER PHẦN I
+      // 1. RENDER PHẦN I (12 câu)
       const p1Box = document.getElementById("part1-container");
       p1Box.innerHTML = "";
       EXAM_DATA.part1.forEach((item) => {
@@ -865,6 +948,7 @@
         qCard.innerHTML = `
           <div class="flex items-start gap-2">
             <span class="bg-pink-600 text-white font-black text-[11px] px-2 py-0.5 rounded-md shrink-0">Câu ${item.id}</span>
+            <span class="text-[10px] text-pink-700 bg-pink-50 border border-pink-200 px-1.5 py-0.5 rounded font-mono">${item.tag}</span>
             <p class="font-bold text-xs sm:text-sm text-slate-900 leading-relaxed whitespace-pre-line">${item.q}</p>
           </div>
           ${item.hasGraph ? getSvgGraphic(item.hasGraph) : ""}
@@ -901,45 +985,12 @@
         p2Box.appendChild(card);
       });
 
-      // 3. RENDER PHẦN III (4 Ô KÝ TỰ ĐIỀN SỐ)
+      // 3. RENDER PHẦN III (TRẢ LỜI NGẮN 4 Ô ĐIỀN)
       const p3Box = document.getElementById("part3-container");
       p3Box.innerHTML = "";
       EXAM_DATA.part3.forEach(item => {
         const card = document.createElement("div");
         card.className = "p-4 sm:p-5 rounded-2xl bg-rose-50/40 border border-rose-100 space-y-3 flex flex-col justify-between";
-
-        let customTableHtml = "";
-        if (item.hasCustomTable === "table_c16") {
-          customTableHtml = `
-            <div class="my-3 overflow-hidden rounded-xl border border-pink-200 bg-white shadow-xs">
-              <div class="bg-gradient-to-r from-pink-500 to-rose-500 py-1.5 px-3 text-center text-[11px] font-bold text-white tracking-wide uppercase">
-                Bảng số liệu 5 lần đo đường kính viên bi
-              </div>
-              <table class="w-full text-center text-xs border-collapse">
-                <thead>
-                  <tr class="bg-pink-50/80 text-pink-950 font-bold border-b border-pink-100">
-                    <th class="py-2 px-2 border-r border-pink-100">Lần đo</th>
-                    <th class="py-2 px-2 border-r border-pink-100">1</th>
-                    <th class="py-2 px-2 border-r border-pink-100">2</th>
-                    <th class="py-2 px-2 border-r border-pink-100">3</th>
-                    <th class="py-2 px-2 border-r border-pink-100">4</th>
-                    <th class="py-2 px-2">5</th>
-                  </tr>
-                </thead>
-                <tbody class="font-semibold text-slate-800">
-                  <tr class="hover:bg-pink-50/30 transition">
-                    <td class="py-2 px-2 border-r border-pink-100 font-bold text-pink-700 bg-pink-50/40">$d\\text{ (mm)}$</td>
-                    <td class="py-2 px-2 border-r border-pink-100">6,32</td>
-                    <td class="py-2 px-2 border-r border-pink-100">6,32</td>
-                    <td class="py-2 px-2 border-r border-pink-100">6,34</td>
-                    <td class="py-2 px-2 border-r border-pink-100">6,24</td>
-                    <td class="py-2 px-2">6,32</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          `;
-        }
 
         card.innerHTML = `
           <div class="space-y-2">
@@ -948,8 +999,6 @@
               <span class="text-[11px] text-rose-700 font-semibold">Trả lời ngắn</span>
             </div>
             <p class="text-xs sm:text-sm text-slate-800 font-semibold leading-relaxed whitespace-pre-line">${item.q}</p>
-            ${customTableHtml}
-            ${item.subQuestion ? `<p class="text-xs sm:text-sm text-pink-900 font-bold leading-relaxed pt-1">${item.subQuestion}</p>` : ""}
             ${item.hasGraph ? getSvgGraphic(item.hasGraph) : ""}
           </div>
           
@@ -966,49 +1015,10 @@
         p3Box.appendChild(card);
       });
 
-      // 4. RENDER PHẦN IV (TỰ LUẬN CHỤP ẢNH BÀI LÀM)
+      // 4. RENDER PHẦN IV (TỰ LUẬN CHỤP ẢNH)
       const p4Box = document.getElementById("part4-container");
       p4Box.innerHTML = "";
       EXAM_DATA.part4.forEach(item => {
-        let customTableHtml = "";
-        if (item.hasCustomTable === "table_c22") {
-          customTableHtml = `
-            <div class="my-3 overflow-hidden rounded-xl border border-cyan-200 bg-white shadow-xs">
-              <div class="bg-gradient-to-r from-cyan-600 to-sky-600 py-1.5 px-3 text-center text-[11px] font-bold text-white tracking-wide uppercase">
-                Bảng số liệu tốc độ theo thời gian của xe máy
-              </div>
-              <div class="overflow-x-auto">
-                <table class="w-full text-center text-xs border-collapse">
-                  <thead>
-                    <tr class="bg-cyan-50/80 text-cyan-950 font-bold border-b border-cyan-100">
-                      <th class="py-2.5 px-3 border-r border-cyan-100 font-bold text-cyan-800">$t\\text{ (s)}$</th>
-                      <th class="py-2.5 px-3 border-r border-cyan-100">0</th>
-                      <th class="py-2.5 px-3 border-r border-cyan-100">5</th>
-                      <th class="py-2.5 px-3 border-r border-cyan-100">10</th>
-                      <th class="py-2.5 px-3 border-r border-cyan-100">15</th>
-                      <th class="py-2.5 px-3 border-r border-cyan-100">20</th>
-                      <th class="py-2.5 px-3 border-r border-cyan-100">25</th>
-                      <th class="py-2.5 px-3">30</th>
-                    </tr>
-                  </thead>
-                  <tbody class="font-semibold text-slate-800">
-                    <tr class="hover:bg-cyan-50/30 transition">
-                      <td class="py-2.5 px-3 border-r border-cyan-100 font-bold text-cyan-800 bg-cyan-50/40">$v\\text{ (m/s)}$</td>
-                      <td class="py-2.5 px-3 border-r border-cyan-100">0</td>
-                      <td class="py-2.5 px-3 border-r border-cyan-100">15</td>
-                      <td class="py-2.5 px-3 border-r border-cyan-100">30</td>
-                      <td class="py-2.5 px-3 border-r border-cyan-100">30</td>
-                      <td class="py-2.5 px-3 border-r border-cyan-100">20</td>
-                      <td class="py-2.5 px-3 border-r border-cyan-100">10</td>
-                      <td class="py-2.5 px-3">0</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          `;
-        }
-
         const card = document.createElement("div");
         card.className = "p-4 sm:p-5 rounded-2xl bg-cyan-50/40 border border-cyan-100 space-y-3.5";
         card.innerHTML = `
@@ -1017,8 +1027,6 @@
             <span class="text-xs text-cyan-700 font-bold">${item.points} điểm</span>
           </div>
           <p class="text-xs sm:text-sm text-slate-800 leading-relaxed font-medium whitespace-pre-line">${item.q}</p>
-          ${customTableHtml}
-          ${item.subQuestion ? `<p class="text-xs sm:text-sm text-slate-800 leading-relaxed font-semibold pt-1 whitespace-pre-line">${item.subQuestion}</p>` : ""}
           ${item.hasGraph ? getSvgGraphic(item.hasGraph) : ""}
           
           <!-- KHU VỰC CHỤP ẢNH / TẢI ẢNH BÀI LÀM TỰ LUẬN -->
@@ -1052,7 +1060,7 @@
         p4Box.appendChild(card);
       });
 
-      // Gọi KaTeX tự động render các công thức được bao quanh bởi dấu $ hoặc $$
+      // Tự động render KaTeX sau khi chèn HTML
       triggerMathRender();
     }
 
@@ -1167,7 +1175,7 @@
     }
 
     /* ==============================================================
-       8. CHẤM ĐIỂM & BÁO CÁO KẾT QUẢ
+       8. CHẤM ĐIỂM & BÁO CÁO KẾT QUẢ CHI TIẾT
        ============================================================== */
     function confirmSubmit() {
       const name = document.getElementById("student-name").value.trim();
@@ -1190,30 +1198,63 @@
 
       // Chấm Phần I (12 câu, mỗi câu 0.25đ => tối đa 3.0đ)
       let scoreP1 = 0;
+      let solutionsHtml = `<div class="font-bold text-slate-800 text-sm border-b pb-1.5 mb-2">ĐÁP ÁN & GIẢI THÍCH CHI TIẾT:</div>`;
+      
+      solutionsHtml += `<div class="font-bold text-pink-700 text-xs mb-1">Phần I: Trắc nghiệm 4 lựa chọn</div><ul class="space-y-1.5 mb-3">`;
       EXAM_DATA.part1.forEach(item => {
-        if (userAnswers.part1[item.id] === item.correct) {
-          scoreP1 += 0.25;
-        }
-      });
+        const letters = ["A", "B", "C", "D"];
+        const userChoice = userAnswers.part1[item.id];
+        const isRight = userChoice === item.correct;
+        if (isRight) scoreP1 += 0.25;
 
-      // Chấm Phần II (2 câu, mỗi câu 1.0đ chia theo ý: 1 ý=0.1, 2 ý=0.25, 3 ý=0.5, 4 ý=1.0đ)
+        solutionsHtml += `
+          <li class="p-2 rounded-lg ${isRight ? 'bg-emerald-50 border border-emerald-200' : 'bg-rose-50 border border-rose-200'}">
+            <strong>Câu ${item.id}:</strong> Đáp án đúng là <strong>${letters[item.correct]}</strong>. Em chọn: <strong>${userChoice !== undefined ? letters[userChoice] : 'Chưa làm'}</strong>.
+            <div class="text-slate-600 mt-0.5 text-[11px]">${item.explain}</div>
+          </li>
+        `;
+      });
+      solutionsHtml += `</ul>`;
+
+      // Chấm Phần II (2 câu, mỗi câu 1.0đ chia theo số ý đúng: 1 ý=0.1, 2 ý=0.25, 3 ý=0.5, 4 ý=1.0đ)
       let scoreP2 = 0;
+      solutionsHtml += `<div class="font-bold text-sky-700 text-xs mb-1">Phần II: Câu hỏi Đúng/Sai</div><ul class="space-y-2 mb-3">`;
       EXAM_DATA.part2.forEach(qItem => {
         let correctCount = 0;
+        let subDetails = "";
         qItem.items.forEach((sub, sIndex) => {
           const key = `${qItem.id}_${sIndex}`;
-          if (userAnswers.part2[key] === sub.correct) {
-            correctCount++;
-          }
+          const userVal = userAnswers.part2[key];
+          const isRight = userVal === sub.correct;
+          if (isRight) correctCount++;
+          
+          subDetails += `
+            <div class="text-[11px] mt-0.5 ${isRight ? 'text-emerald-700' : 'text-rose-700'}">
+              • ${sub.text} ➔ Đáp án đúng: <strong>${sub.correct ? 'ĐÚNG' : 'SAI'}</strong> (Em chọn: ${userVal === undefined ? 'Chưa chọn' : (userVal ? 'ĐÚNG' : 'SAI')})
+              ${sub.explain ? `<span class="block text-slate-500 italic">↳ ${sub.explain}</span>` : ''}
+            </div>
+          `;
         });
-        if (correctCount === 1) scoreP2 += 0.1;
-        else if (correctCount === 2) scoreP2 += 0.25;
-        else if (correctCount === 3) scoreP2 += 0.5;
-        else if (correctCount === 4) scoreP2 += 1.0;
-      });
+        
+        let subScore = 0;
+        if (correctCount === 1) subScore = 0.1;
+        else if (correctCount === 2) subScore = 0.25;
+        else if (correctCount === 3) subScore = 0.5;
+        else if (correctCount === 4) subScore = 1.0;
+        scoreP2 += subScore;
 
-      // Chấm Phần III (6 câu, mỗi câu 0.333đ => tối đa 2.0đ)
+        solutionsHtml += `
+          <li class="p-2.5 rounded-lg bg-sky-50 border border-sky-200">
+            <strong>${qItem.title}</strong> (Đạt: ${subScore.toFixed(2)}/1.0 đ)
+            ${subDetails}
+          </li>
+        `;
+      });
+      solutionsHtml += `</ul>`;
+
+      // Chấm Phần III (4 câu x 0.5đ = 2.0đ)
       let scoreP3 = 0;
+      solutionsHtml += `<div class="font-bold text-rose-700 text-xs mb-1">Phần III: Trả lời ngắn</div><ul class="space-y-1.5 mb-3">`;
       EXAM_DATA.part3.forEach(item => {
         const rawAns = (userAnswers.part3[item.id] || "").trim().toLowerCase();
         const normAns = rawAns.replace(',', '.');
@@ -1221,13 +1262,29 @@
           const normOk = ok.toLowerCase().replace(',', '.');
           return normOk === normAns || ok.toLowerCase() === rawAns;
         });
-        if (isMatched) {
-          scoreP3 += 0.3333;
-        }
-      });
-      scoreP3 = Math.min(2.0, Math.round(scoreP3 * 10) / 10);
+        if (isMatched) scoreP3 += 0.5;
 
-      // Phần IV tự luận
+        solutionsHtml += `
+          <li class="p-2 rounded-lg ${isMatched ? 'bg-emerald-50 border border-emerald-200' : 'bg-rose-50 border border-rose-200'}">
+            <strong>Câu ${item.id}:</strong> Đáp án đúng: <strong>${item.acceptedAnswers[0]}</strong>. Em nhập: <strong>${rawAns || 'Chưa nhập'}</strong>.
+            <div class="text-slate-600 mt-0.5 text-[11px]">${item.explain}</div>
+          </li>
+        `;
+      });
+      solutionsHtml += `</ul>`;
+
+      // Phần IV: Hướng dẫn giải tự luận
+      solutionsHtml += `<div class="font-bold text-cyan-800 text-xs mb-1">Phần IV: Lời giải gợi ý Tự luận (Giáo viên chấm)</div><ul class="space-y-2">`;
+      EXAM_DATA.part4.forEach(item => {
+        solutionsHtml += `
+          <li class="p-2.5 rounded-lg bg-cyan-50 border border-cyan-200">
+            <strong>${item.title}</strong>
+            <pre class="text-[11px] text-slate-700 mt-1 whitespace-pre-line font-sans">${item.solution}</pre>
+          </li>
+        `;
+      });
+      solutionsHtml += `</ul>`;
+
       const imageCount = Object.keys(userAnswers.part4.images).length;
       const noteCount = Object.keys(userAnswers.part4.notes).length;
       const essaySubmitted = (imageCount > 0) || (noteCount > 0);
@@ -1247,15 +1304,17 @@
 
       let evalText = "";
       if (objectiveScore >= 6.0) {
-        evalText = "🌟 <strong>Xuất sắc!</strong> Em nắm rất vững kiến thức và công thức Vật lí 10. Hãy tự tin chờ kết quả chấm ảnh tự luận của giáo viên nhé!";
+        evalText = "🌟 <strong>Xuất sắc!</strong> Em nắm rất vững kiến thức và kỹ năng đọc đồ thị Vật lí 10 Đề 2. Hãy tự tin chờ kết quả chấm ảnh tự luận của giáo viên nhé!";
       } else if (objectiveScore >= 4.5) {
-        evalText = "👍 <strong>Khá tốt!</strong> Em đã đạt điểm an toàn ở phần trắc nghiệm. Hãy xem lại các câu đồ thị và tính sai số để hoàn thiện hơn.";
+        evalText = "👍 <strong>Khá tốt!</strong> Em đã đạt điểm an toàn ở phần trắc nghiệm. Hãy xem lại các câu đồ thị v - t và d - t bên dưới để hoàn thiện hơn.";
       } else {
-        evalText = "💪 <strong>Cần cố gắng thêm!</strong> Em còn nhầm lẫn ở các công thức chuyển động biến đổi đều và phân biệt quãng đường - độ dịch chuyển.";
+        evalText = "💪 <strong>Cần cố gắng thêm!</strong> Em cần chú ý phân biệt vận tốc trung bình và tốc độ trung bình, cách tính gia tốc từ đồ thị.";
       }
       document.getElementById("res-evaluation").innerHTML = evalText;
+      document.getElementById("res-solutions-container").innerHTML = solutionsHtml;
 
       document.getElementById("result-modal").classList.remove("hidden");
+      triggerMathRender();
     }
 
     function closeModalAndReview() {
@@ -1273,7 +1332,7 @@
       const total = document.getElementById("res-total-score").innerText;
       const time = document.getElementById("res-timestamp").innerText;
 
-      const text = `KẾT QUẢ KIỂM TRA GIỮA HKI - VẬT LÍ 10
+      const text = `KẾT QUẢ KIỂM TRA GIỮA HKI - ĐỀ 2 - VẬT LÍ 10
 Trường THPT Lê Quý Đôn
 Học sinh: ${name} (${sbd})
 ${time}
@@ -1291,7 +1350,7 @@ ${time}
       document.execCommand("copy");
       document.body.removeChild(temp);
 
-      alert("✓ Đã sao chép báo cáo kết quả kiểm tra! Em có thể gửi vào nhóm Zalo/Messenger cho thầy cô.");
+      alert("✓ Đã sao chép báo cáo kết quả kiểm tra Đề 2! Em có thể gửi vào nhóm Zalo/Messenger cho thầy cô.");
     }
 
     // Khởi chạy khi tài liệu sẵn sàng
@@ -1302,3 +1361,15 @@ ${time}
   </script>
 </body>
 </html>
+```
+
+### Các cải tiến & chuẩn hóa trong Đề 2:
+1. **Toàn bộ nội dung bám sát file `CK. đề 2.docx`**:
+   - **Phần I (12 câu trắc nghiệm)**: Công thức sai số gia tốc $g$, phương pháp thực nghiệm và mô hình, biển báo nguy cơ dễ cháy, an toàn thiết bị điện, công thức vận tốc $v = v_0 + at$, bài toán bơi lội $25\text{ m}$ của hai anh em, định nghĩa tốc độ trung bình, kết quả đo lực kéo $F$, tính vận tốc bơi $1,25\text{ m/s}$, biểu thức vectơ gia tốc $\vec{a} = \frac{\Delta \vec{v}}{\Delta t}$, tính chất $a \cdot v > 0$ và đồ thị $v - t$ có độ lớn gia tốc lớn nhất (đồ thị D).
+   - **Phần II (2 câu Đúng/Sai)**: Câu 13 (đồ thị $d - t$ có đoạn đứng yên $v=0$, độ dốc, vận tốc $2\text{ m/s}$ và độ dịch chuyển âm $-1\text{ m}$) và Câu 14 (tốc độ trung bình, vận tốc trung bình, hãm phanh ngược chiều, tính xác thực của AI).
+   - **Phần III (4 câu trả lời ngắn)**: Câu 15 bơi qua sông dạt dòng $70,7\text{ m}$, Câu 16 gia tốc thang máy $4\text{ m/s}^2$, Câu 17 thời gian dừng tàu $40\text{ s}$, Câu 18 đọc tốc kế xe $90\text{ km/h} \to 25\text{ m/s}$.
+   - **Phần IV (2 bài tự luận)**: Bài 19 (đồ thị $v - t$ nhiều giai đoạn, tính gia tốc đoạn $12\text{s} - 20\text{s}$ bằng $-2,5\text{ m/s}^2$) và Bài 20 (đồ thị $d - t$ gồm 3 vật, tính vận tốc vật III bằng $20\text{ km/h}$); hỗ trợ chụp ảnh trực tiếp bài làm hoặc tải ảnh lên.
+2. **Đồ họa SVG vẽ riêng & KaTeX**:
+   - Tất cả các đồ thị tọa độ và hình ảnh biển báo, đồng hồ tốc kế được vẽ trực tiếp bằng SVG chất lượng cao, không bị mờ nhòe.
+   - Thư viện KaTeX tự động biên dịch toàn bộ các công thức toán lý và ký hiệu vectơ chuẩn mực.
+3. **Độ tương thích**: Tệp HTML độc lập chạy trực tiếp trên cả máy tính, điện thoại, nhúng Canva hoặc tải lên GitHub Pages.
